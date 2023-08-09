@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Pagamento</title>
+
+</head>
+<body>
+  <script src="./js/pagamento-tipo.js"></script>
+  <h1>Calculadora de Pagamento</h1>
+  <form>
+    <label for="preco">Preço do Produto: R$</label>
+    <input type="number" id="preco" step="0.2" required>
+    <button type="button" onclick="calcularValores()">Calcular</button>
+  </form>
+  <p id="avista"></p>
+  <p id="parcelado"></p>
+</body>
+</html>
